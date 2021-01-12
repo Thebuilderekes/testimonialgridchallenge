@@ -123,6 +123,8 @@ span {
 
 svg {
   left: 70%;
+
+  opacity: 0.3;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -133,7 +135,8 @@ svg {
 
   svg {
     left: 60%;
-    z-index: 1;
+    z-index: 0;
+    opacity: 0.3;
   }
 
   .daniel {
@@ -146,6 +149,8 @@ svg {
 
   .patrick {
     width: 100%;
+
+    margin-bottom: 50px;
   }
   .jonathan {
     width: 100%;
