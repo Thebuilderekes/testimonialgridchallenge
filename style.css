@@ -138,3 +138,60 @@ span {
 svg {
     left: 70%;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    svg {
+    
+         left: 60%;
+        z-index: 1;
+
+            }
+
+
+
+.daniel{
+    width: 100%;
+}
+
+
+.
+
+  .jeanette{
+
+    width: 100%;
+
+  }
+
+
+
+  .patrick{
+
+width: 100%;
+  }
+.jonathan{
+
+width: 100%;
+}
+
+    .kira{
+
+
+        width: 100%;
+    }
+
+.attribution {
+  display: none;
+}
+
+
+}
