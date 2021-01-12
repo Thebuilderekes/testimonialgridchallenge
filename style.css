@@ -1,0 +1,140 @@
+
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+
+### Neutral
+
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)
+
+Note for text colors:
+
+1. "Verified Graduate" has the same color as the person's name with 50% opacity
+2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+
+## Typography
+
+### Body Copy
+
+- Font size: 13px
+
+### Font
+
+- Family: 
+- Weights: 500, 600 */
+
+* {
+  
+    box-sizing: border-box;
+}
+
+body {
+   background-color:  hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+p  {
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.705);
+    /* padding: 20px; */
+
+
+}
+  .para { 
+      display: flex;
+      flex-wrap: wrap;
+
+
+  }
+.daniel{
+
+    background-color:  hsl(263, 55%, 52%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+-moz-box-shadow:    2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+box-shadow:         2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+} 
+
+.jonathan{
+   background-color:  hsl(217, 19%, 35%);
+   -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+-moz-box-shadow:    2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+box-shadow:         2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+
+}
+
+.kira{
+    background-color: hsl(0, 0%, 100%);
+    color:  hsl(0, 1%, 21%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+-moz-box-shadow:    2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+box-shadow:         2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+}
+
+.kira  p{
+    color:  hsla(0, 1%, 21%, 0.705)
+}
+
+.kira h2 {
+    color:  hsl(0, 1%, 21%);
+}
+.kira .flex h2 span {
+    color:  hsla(0, 1%, 21%, 0.548);
+}
+
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow:    2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow:         2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+}
+
+.jeanette h2 {
+    color:  hsl(0, 1%, 21%);
+}
+.jeanette p {
+
+    color:  hsla(0, 1%, 21%, 0.705);
+}
+.jeanette .flex h2 span {
+    color:  hsla(0, 1%, 21%, 0.548);
+}
+.patrick {
+
+    background-color:  hsl(219, 29%, 14%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow:    2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow:         2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+
+}
+
+h2 {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.726);
+
+}
+
+
+span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+svg {
+    left: 70%;
+}
