@@ -36,7 +36,7 @@ Note for text colors:
 
 - Family: 
 - Weights: 500, 600 */
-
+  @import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
 * {
   box-sizing: border-box;
 }
@@ -128,7 +128,7 @@ span {
 svg {
   left: 70%;
 
-  opacity: 0.3;
+
 }
 
 @media only screen and (min-width: 300px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
