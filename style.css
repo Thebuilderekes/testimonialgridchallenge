@@ -65,6 +65,18 @@ p {
   overflow: hidden;
 }
 
+.daniel_index {
+    
+  z-index: 10;
+
+}
+
+.daniel_header {
+
+  z-index: 10;
+
+}
+
 .jonathan {
   background-color: hsl(217, 19%, 35%);
   -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
@@ -139,15 +151,31 @@ svg {
   }
 
   svg {
-    left: 60%;
-    z-index: 0;
-    opacity: 0.3;
+    left: 50%;
+    z-index: 10;
+  
+    display: inline;
   }
 
   .daniel {
+
     width: 100%;
+    z-index: 10;
   }
 
+  .daniel_index {
+
+    z-index: 10;
+
+  }
+
+
+
+  .daniel_header {
+
+    z-index: 10;
+
+  }
    .jeanette {
     width: 100%;
   }
