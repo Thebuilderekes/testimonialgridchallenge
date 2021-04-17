@@ -6,7 +6,7 @@
     <title>Frontend Mentor| Testimonial grid Challenge</title>
 
     <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      href="tailwind.min.css"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,36 +15,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="w-screen h-screen flex">
-      <div class="cards grid grid-cols-4 grid-rows-2 gap-4 p-10">
-        <div class="daniel col-span-2 rounded relative w-full h-full">
-         <svg class="absolute">
+    <div class="w-screen h-screen flex justify-center items-center ">
+      <div class="cards lg:grid lg:p-8 lg:grid-cols-4 lg:grid-rows-2 lg:gap-4">
+        <div class="daniel wrapper card-component lg:col-span-2 lg:rounded md:rounded lg:relative lg:relative  lg:w-full lg:h-full">
+         <svg class="lg:absolute md:absolute">
             <path
               d="M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z"
               fill="#A775F1"
               fill-rule="nonzero"
             />
           </svg>
-          <div class="flex p-4 px-8">
+          <div class="flex img-wrapper  lg:p-4 lg:px-8 md:p-4">
             <figure class="image">
               <img
-                class="w-8 h-8 rounded-full"
+                class="lg:w-8 lg:h-8 lg:rounded-full"
                 src="images/image-daniel.jpg"
-                alt=""
+                alt="profile image"
               />
             </figure>
-            <h2 class=" daniel_header px-4">
+            <h2 class=" daniel_header lg:px-4">
               Daniel Clifford <br />
               <span> Verified Graduate</span>
             </h2>
           </div>
           <div class="para px-4">
-            <p class=" daniel_index font-bold pb-4  text-base text-white">
+            <p class=" daniel_index lg:font-bold lg:pb-4 lg:text-base md:text-xl text-white">
               I received a job offer mid-course, and the subjects I learned<br />
               were current, if not more so, in the company I joined.<br />
               I honestly feel I got every penny’s worth.
             </p>
-            <p>
+            <p class = " p2 lg:text-sm md:text-lg">
               " I was an EMT for many years before I joined the bootcamp. I’ve
               been looking to make a transition and have heard some people who
               had an amazing experience here. I signed up for the free intro
@@ -56,56 +56,56 @@
           </div>
         </div>
 
-        <div class="jonathan rounded">
-          <div class="flex p-4 px-8">
+        <div class="jonathan card-component  rounded">
+          <div class="flex img-wrapper  lg:p-4 lg:px-8 md:p-4">
             <figure class="image">
               <img
-                class="w-8 h-8 rounded-full"
+                class="lg:w-8 lg:h-8 rounded-full"
                 src="images/image-jonathan.jpg"
-                alt=""
+                alt="profile image"
               />
             </figure>
-            <h2 class="px-4">
+            <h2 class="lg:px-4">
               Jonathan Walters <br />
               <span> Verified Graduate</span>
             </h2>
           </div>
 
-          <div class="para px-4">
-            <p class="font-bold pb-4 text-base text-white">
+          <div class="para para px-4">
+            <p class="lg:font-bold lg:pb-4 md:text-xl  text-white">
               The team was very<br />
               supportive and kept me<br />
               motivated
             </p>
-            <p>
+            <p class = "p2 lg:text-sm md:text-lg">
               “ I started as a total newbie with virtually no coding skills. I
               now work as a mobile engineer for a big company. This was one of
               the best investments I’ve made in myself."
             </p>
           </div>
         </div>
-        <div class="kira row-span-2 rounded">
-          <div class="flex p-4 px-8">
+        <div class="kira card-component lg:row-span-2 lg:mt-0   lg:rounded">
+          <div class="flex img-wrapper  lg:p-4 lg:px-8 md:p-4">
             <figure class="image">
               <img
-                class="w-8 h-8 rounded-full"
+                class="lg:w-8 lg:h-8   rounded-full"
                 src="images/image-kira.jpg"
-                alt=""
+                alt="profile image"
               />
             </figure>
-            <h2 class="px-4">
+            <h2 class="lg:px-4">
               Kira Whittle <br />
               <span> Verified Graduate</span>
             </h2>
           </div>
 
-          <div class="para px-4 ">
-            <p class="font-bold pb-4  text-base">
+          <div class="para px-4">
+            <p class="lg:font-bold lg:pb-4 lg:text-base md:text-xl ">
               Such a life-changing<br />
               experience. Highly<br />
               recommended!
             </p>
-            <p>
+            <p class="p2 lg:text-sm md:text-lg">
               " Before joining the bootcamp, I’ve never written a line of code.
               I needed some structure from professionals who can help me learn
               programming step by step. I was encouraged to enroll by a former
@@ -121,54 +121,54 @@
             </p>
           </div>
         </div>
-        <div class="jeanette rounded">
-          <div class="flex p-4 px-8">
+        <div class="jeanette card-component lg:mt-0 rounded">
+          <div class="flex img-wrapper  lg:p-4 lg:px-8 md:p-4">
             <figure class="image">
               <img
-                class="w-8 h-8 rounded-full"
+                class="lg:w-8 lg:h-8 rounded-full"
                 src="images/image-jeanette.jpg"
-                alt=""
+                alt="profile image"
               />
             </figure>
-            <h2 class="px-4">
+            <h2 class="lg:px-4">
               Jeanette Harmon <br />
               <span> Verified Graduate</span>
             </h2>
           </div>
 
           <div class="para px-4">
-            <p class="font-bold pb-4 text-base">
+            <p class="lg:font-bold lg:pb-4 lg:text-base md:text-xl ">
               An overall wonderful <br />and rewarding<br />
               experience
             </p>
-            <p>
+            <p class= "p2 lg:text-sm md:text-lg">
               "Thank you for the wonderful experience! I now have a job I really
               enjoy, and make a good living while doing something I love."
               
             </p>
           </div>
         </div>
-        <div class="patrick col-span-2 rounded">
-          <div class="flex p-4 px-8">
+        <div class="patrick card-component lg:col-span-2 lg:my-0rounded">
+          <div class="flex img-wrapper lg:p-4  lg:px-8 md:p-4">
             <div class="image">
               <img
-                class="w-8 h-8 border rounded-full"
+                class="lg:w-8 lg:h-8 lg:border rounded-full"
                 src="images/image-patrick.jpg"
-                alt=""
+                alt="profile image"
               />
             </div>
-            <h2 class="px-4">
+            <h2 class="lg:px-4">
               Patrick Abrams <br />
               <span> Verified Graduate</span>
             </h2>
           </div>
           <div class="para px-4">
-            <p class="font-bold pb-4 text-base text-white">
+            <p class="lg:font-bold lg:pb-4 lg:text-base  lg:text-white md:text-xl">
               Awesome teaching support from TAs who did the bootcamp<br />
               themselves. Getting guidance from<br />
               them and learning from their experiences was easy. “
             </p>
-            <p>
+            <p class=" p2 lg:text-sm md:text-lg">
               "The staff seem genuinely concerned about my progress which I find
               really refreshing. The program gave me the confidence necessary to
               be able to go out in the world and present myself as a capable

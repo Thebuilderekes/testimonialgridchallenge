@@ -146,126 +146,581 @@ svg {
 
 }
 
-@media only screen and (max-width:375px){
-  .cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 50px 0;
-   
+
+
+@media only screen and (max-width:768px){
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
   }
 
-  svg {
-    left: 50%;
+.cards {
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+   margin-top: 1200px;
+   margin-bottom: 100px;
+   width: 80%;
+ 
+  
+}
+
+.p2 {
+
+  padding-bottom: 50px;
+}
+.card-component {
+
+  margin: 20px 0;
+}
+  p {
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.705);
+    /* padding: 20px; */
+  }
+  .para {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .daniel {
+    background-color: hsl(263, 55%, 52%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  
+
+  }
+  
+  .daniel_index {
+      
     z-index: 10;
   
-    display: inline;
   }
-
-  .daniel {
-
-    width: 100%;
-    z-index: 10;
-    margin-bottom: 20px;
-  }
-
-  .daniel_index {
-
-    z-index: 10;
-
-  }
-
-
-
+  
   .daniel_header {
-
+  
     z-index: 10;
-
+  
   }
-   .jeanette {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .patrick {
-    width: 100%;
-
-    margin-bottom: 50px;
-  }
+  
   .jonathan {
-    width: 100%;
-    margin-bottom: 20px;
+    background-color: hsl(217, 19%, 35%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
   }
-
+  
   .kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 1%, 21%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
     width: 100%;
-    margin-bottom: 20px;
+  
+  }
+  
+  .kira p {
+    color: hsla(0, 1%, 21%, 0.705);
+    padding:0;
+  }
+  
+  .kira h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .kira .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  
+  .jeanette {
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  }
+  
+  .jeanette h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .jeanette p {
+    color: hsla(0, 1%, 21%, 0.705);
+  }
+  .jeanette .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  .patrick {
+    background-color: hsl(219, 29%, 14%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.726);
+  }
+  
+  span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  svg {
+    left: 70%;
+  
+  
   }
 
-  .attribution {
-    display: none;
+  img {
+
+    border-radius:50%;
   }
+.attribution {
+
+  margin-top: 1100px;
+}
+}
+
+@media only screen and (max-width:414px){
+
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+.cards {
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+   margin-top: 1200px;
+   margin-bottom: 100px;
+   width: 80%;
+ 
+  
+}
+.p2 {
+
+  padding-bottom: 50px;
+}
+
+.card-component {
+
+  margin: 10px 0;
+}
+  p {
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.705);
+    /* padding: 20px; */
+  }
+  .para {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .daniel {
+    background-color: hsl(263, 55%, 52%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  
+
+  }
+  
+  .daniel_index {
+      
+    z-index: 10;
+  
+  }
+  
+  .daniel_header {
+  
+    z-index: 10;
+  
+  }
+  
+  .jonathan {
+    background-color: hsl(217, 19%, 35%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  }
+  
+  .kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 1%, 21%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    width: 100%;
+  
+  }
+  
+  .kira p {
+    color: hsla(0, 1%, 21%, 0.705);
+    padding:0;
+  }
+  
+  .kira h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .kira .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  
+  .jeanette {
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  }
+  
+  .jeanette h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .jeanette p {
+    color: hsla(0, 1%, 21%, 0.705);
+  }
+  .jeanette .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  .patrick {
+    background-color: hsl(219, 29%, 14%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.726);
+  }
+  
+  span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  svg {
+    left: 70%;
+  
+  
+  }
+  .img-wrapper {
+
+    padding: 1rem 1rem;
+  }
+
+  img {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius:50%;
+
+  }
+.attribution {
+
+  margin-top: 1200px;
+}
+
 }
 
 
+@media only screen and (max-width:375px){
 
-@media only screen and (max-width:414px){
-  .cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 50px 0;
-   
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
   }
 
-  svg {
-    left: 50%;
+.cards {
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+   margin-top: 1300px;
+   margin-bottom: 100px;
+   width: 80%;
+ 
+  
+}
+
+.p2 {
+
+  padding-bottom: 50px;
+}
+.card-component {
+
+  margin: 10px 0;
+}
+  p {
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.705);
+    /* padding: 20px; */
+  }
+  .para {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .daniel {
+    background-color: hsl(263, 55%, 52%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  
+
+  }
+  
+  .daniel_index {
+      
     z-index: 10;
   
-    display: inline;
   }
-
-  .daniel {
-
-    width: 100%;
-    z-index: 10;
-    margin-bottom: 20px;
-  }
-
-  .daniel_index {
-
-    z-index: 10;
-
-  }
-
-
-
+  
   .daniel_header {
-
+  
     z-index: 10;
-
+  
   }
-   .jeanette {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .patrick {
-    width: 100%;
-
-    margin-bottom: 50px;
-  }
+  
   .jonathan {
-    width: 100%;
-    margin-bottom: 20px;
+    background-color: hsl(217, 19%, 35%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
   }
-
+  
   .kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 1%, 21%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
     width: 100%;
-    margin-bottom: 20px;
+  
+  }
+  
+  .kira p {
+    color: hsla(0, 1%, 21%, 0.705);
+    padding:0;
+  }
+  
+  .kira h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .kira .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  
+  .jeanette {
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  }
+  
+  .jeanette h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .jeanette p {
+    color: hsla(0, 1%, 21%, 0.705);
+  }
+  .jeanette .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  .patrick {
+    background-color: hsl(219, 29%, 14%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.726);
+  }
+  
+  span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  svg {
+    left: 70%;
+  
+  
+  }
+  .img-wrapper {
+
+    padding: 1rem 1rem;
   }
 
-  .attribution {
-    display: none;
+  img {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius:50%;
+
   }
+.attribution {
+
+  margin-top: 1400px;
+}
+
+}
+
+@media only screen and (max-width:360px){
+
+  * {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+.cards {
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+   margin-top: 1200px;
+   margin-bottom: 100px;
+   width: 80%;
+ 
+  
+}
+
+.p2 {
+
+  padding-bottom: 50px;
+}
+.card-component {
+
+  margin: 10px 0;
+}
+  p {
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.705);
+    /* padding: 20px; */
+  }
+  .para {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .daniel {
+    background-color: hsl(263, 55%, 52%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  
+
+  }
+  
+  .daniel_index {
+      
+    z-index: 10;
+  
+  }
+  
+  .daniel_header {
+  
+    z-index: 10;
+  
+  }
+  
+  .jonathan {
+    background-color: hsl(217, 19%, 35%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  }
+  
+  .kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 1%, 21%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    width: 100%;
+  
+  }
+  
+  .kira p {
+    color: hsla(0, 1%, 21%, 0.705);
+    padding:0;
+  }
+  
+  .kira h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .kira .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  
+  .jeanette {
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    overflow: hidden;
+  }
+  
+  .jeanette h2 {
+    color: hsl(0, 1%, 21%);
+  }
+  .jeanette p {
+    color: hsla(0, 1%, 21%, 0.705);
+  }
+  .jeanette .flex h2 span {
+    color: hsla(0, 1%, 21%, 0.548);
+  }
+  .patrick {
+    background-color: hsl(219, 29%, 14%);
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.726);
+  }
+  
+  span {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  svg {
+    left: 70%;
+  
+  
+  }
+  .img-wrapper {
+
+    padding: 1rem 1rem;
+  }
+
+  img {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius:50%;
+
+  }
+.attribution {
+
+  margin-top: 1200px;
+}
+
 }
