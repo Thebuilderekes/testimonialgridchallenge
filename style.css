@@ -38,6 +38,8 @@ Note for text colors:
 - Weights: 500, 600 */
   @import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
 * {
+  margin: 0;
+  padding:0;
   box-sizing: border-box;
 }
 
@@ -63,6 +65,7 @@ p {
   -moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
   box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.32);
   overflow: hidden;
+  height: 100%;
 }
 
 .daniel_index {
@@ -143,11 +146,13 @@ svg {
 
 }
 
-@media only screen and (min-width: 300px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width:375px){
   .cards {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 50px;
+    margin: 50px 0;
+   
   }
 
   svg {
@@ -161,6 +166,7 @@ svg {
 
     width: 100%;
     z-index: 10;
+    margin-bottom: 20px;
   }
 
   .daniel_index {
@@ -178,6 +184,7 @@ svg {
   }
    .jeanette {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .patrick {
@@ -187,10 +194,75 @@ svg {
   }
   .jonathan {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .kira {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width:414px){
+  .cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0;
+   
+  }
+
+  svg {
+    left: 50%;
+    z-index: 10;
+  
+    display: inline;
+  }
+
+  .daniel {
+
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 20px;
+  }
+
+  .daniel_index {
+
+    z-index: 10;
+
+  }
+
+
+
+  .daniel_header {
+
+    z-index: 10;
+
+  }
+   .jeanette {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .patrick {
+    width: 100%;
+
+    margin-bottom: 50px;
+  }
+  .jonathan {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .kira {
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .attribution {
